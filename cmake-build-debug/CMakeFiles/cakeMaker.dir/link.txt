@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/cakeMaker.dir/main.cpp.o  -o cakeMaker 
