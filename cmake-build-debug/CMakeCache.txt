@@ -194,6 +194,15 @@ ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/sbin/sysctl
 
+//The directory containing a CMake configuration file for Qt5Core.
+Qt5Core_DIR:PATH=/home/farida/IDEs/Qt/5.9.1/gcc_64/lib/cmake/Qt5Core
+
+//The directory containing a CMake configuration file for Qt5Gui.
+Qt5Gui_DIR:PATH=/home/farida/IDEs/Qt/5.9.1/gcc_64/lib/cmake/Qt5Gui
+
+//The directory containing a CMake configuration file for Qt5Widgets.
+Qt5Widgets_DIR:PATH=/home/farida/IDEs/Qt/5.9.1/gcc_64/lib/cmake/Qt5Widgets
+
 //Value Computed by CMake
 cakeMaker_BINARY_DIR:STATIC=/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug
 

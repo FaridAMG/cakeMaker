@@ -81,17 +81,72 @@ CMakeFiles/cakeMaker.dir/main.cpp.o.provides: CMakeFiles/cakeMaker.dir/main.cpp.
 CMakeFiles/cakeMaker.dir/main.cpp.o.provides.build: CMakeFiles/cakeMaker.dir/main.cpp.o
 
 
+CMakeFiles/cakeMaker.dir/mainwindow.cpp.o: CMakeFiles/cakeMaker.dir/flags.make
+CMakeFiles/cakeMaker.dir/mainwindow.cpp.o: ../mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cakeMaker.dir/mainwindow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cakeMaker.dir/mainwindow.cpp.o -c "/home/farida/Documents/gitKraken repositories/cakeMaker/mainwindow.cpp"
+
+CMakeFiles/cakeMaker.dir/mainwindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cakeMaker.dir/mainwindow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/farida/Documents/gitKraken repositories/cakeMaker/mainwindow.cpp" > CMakeFiles/cakeMaker.dir/mainwindow.cpp.i
+
+CMakeFiles/cakeMaker.dir/mainwindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cakeMaker.dir/mainwindow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/farida/Documents/gitKraken repositories/cakeMaker/mainwindow.cpp" -o CMakeFiles/cakeMaker.dir/mainwindow.cpp.s
+
+CMakeFiles/cakeMaker.dir/mainwindow.cpp.o.requires:
+
+.PHONY : CMakeFiles/cakeMaker.dir/mainwindow.cpp.o.requires
+
+CMakeFiles/cakeMaker.dir/mainwindow.cpp.o.provides: CMakeFiles/cakeMaker.dir/mainwindow.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/mainwindow.cpp.o.provides.build
+.PHONY : CMakeFiles/cakeMaker.dir/mainwindow.cpp.o.provides
+
+CMakeFiles/cakeMaker.dir/mainwindow.cpp.o.provides.build: CMakeFiles/cakeMaker.dir/mainwindow.cpp.o
+
+
+CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o: CMakeFiles/cakeMaker.dir/flags.make
+CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o: cakeMaker_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o -c "/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/cakeMaker_autogen/mocs_compilation.cpp"
+
+CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/cakeMaker_autogen/mocs_compilation.cpp" > CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.i
+
+CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/cakeMaker_autogen/mocs_compilation.cpp" -o CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.s
+
+CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o.requires:
+
+.PHONY : CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o.requires
+
+CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o.provides: CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o.provides.build
+.PHONY : CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o.provides
+
+CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o.provides.build: CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o
+
+
 # Object files for target cakeMaker
 cakeMaker_OBJECTS = \
-"CMakeFiles/cakeMaker.dir/main.cpp.o"
+"CMakeFiles/cakeMaker.dir/main.cpp.o" \
+"CMakeFiles/cakeMaker.dir/mainwindow.cpp.o" \
+"CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o"
 
 # External object files for target cakeMaker
 cakeMaker_EXTERNAL_OBJECTS =
 
 cakeMaker: CMakeFiles/cakeMaker.dir/main.cpp.o
+cakeMaker: CMakeFiles/cakeMaker.dir/mainwindow.cpp.o
+cakeMaker: CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o
 cakeMaker: CMakeFiles/cakeMaker.dir/build.make
+cakeMaker: /home/farida/IDEs/Qt/5.9.1/gcc_64/lib/libQt5Widgets.so.5.9.1
+cakeMaker: /home/farida/IDEs/Qt/5.9.1/gcc_64/lib/libQt5Gui.so.5.9.1
+cakeMaker: /home/farida/IDEs/Qt/5.9.1/gcc_64/lib/libQt5Core.so.5.9.1
 cakeMaker: CMakeFiles/cakeMaker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cakeMaker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable cakeMaker"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cakeMaker.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +155,8 @@ CMakeFiles/cakeMaker.dir/build: cakeMaker
 .PHONY : CMakeFiles/cakeMaker.dir/build
 
 CMakeFiles/cakeMaker.dir/requires: CMakeFiles/cakeMaker.dir/main.cpp.o.requires
+CMakeFiles/cakeMaker.dir/requires: CMakeFiles/cakeMaker.dir/mainwindow.cpp.o.requires
+CMakeFiles/cakeMaker.dir/requires: CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o.requires
 
 .PHONY : CMakeFiles/cakeMaker.dir/requires
 

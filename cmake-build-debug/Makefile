@@ -123,6 +123,46 @@ cakeMaker/fast:
 	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/build
 .PHONY : cakeMaker/fast
 
+#=============================================================================
+# Target rules for targets named cakeMaker_autogen
+
+# Build rule for target.
+cakeMaker_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cakeMaker_autogen
+.PHONY : cakeMaker_autogen
+
+# fast build rule for target.
+cakeMaker_autogen/fast:
+	$(MAKE) -f CMakeFiles/cakeMaker_autogen.dir/build.make CMakeFiles/cakeMaker_autogen.dir/build
+.PHONY : cakeMaker_autogen/fast
+
+cakeMaker_autogen/mocs_compilation.o: cakeMaker_autogen/mocs_compilation.cpp.o
+
+.PHONY : cakeMaker_autogen/mocs_compilation.o
+
+# target to build an object file
+cakeMaker_autogen/mocs_compilation.cpp.o:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o
+.PHONY : cakeMaker_autogen/mocs_compilation.cpp.o
+
+cakeMaker_autogen/mocs_compilation.i: cakeMaker_autogen/mocs_compilation.cpp.i
+
+.PHONY : cakeMaker_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+cakeMaker_autogen/mocs_compilation.cpp.i:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.i
+.PHONY : cakeMaker_autogen/mocs_compilation.cpp.i
+
+cakeMaker_autogen/mocs_compilation.s: cakeMaker_autogen/mocs_compilation.cpp.s
+
+.PHONY : cakeMaker_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+cakeMaker_autogen/mocs_compilation.cpp.s:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.s
+.PHONY : cakeMaker_autogen/mocs_compilation.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,6 +190,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+mainwindow.o: mainwindow.cpp.o
+
+.PHONY : mainwindow.o
+
+# target to build an object file
+mainwindow.cpp.o:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/mainwindow.cpp.o
+.PHONY : mainwindow.cpp.o
+
+mainwindow.i: mainwindow.cpp.i
+
+.PHONY : mainwindow.i
+
+# target to preprocess a source file
+mainwindow.cpp.i:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/mainwindow.cpp.i
+.PHONY : mainwindow.cpp.i
+
+mainwindow.s: mainwindow.cpp.s
+
+.PHONY : mainwindow.s
+
+# target to generate assembly for a file
+mainwindow.cpp.s:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/mainwindow.cpp.s
+.PHONY : mainwindow.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +226,16 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cakeMaker"
+	@echo "... cakeMaker_autogen"
+	@echo "... cakeMaker_autogen/mocs_compilation.o"
+	@echo "... cakeMaker_autogen/mocs_compilation.i"
+	@echo "... cakeMaker_autogen/mocs_compilation.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... mainwindow.o"
+	@echo "... mainwindow.i"
+	@echo "... mainwindow.s"
 .PHONY : help
 
 
