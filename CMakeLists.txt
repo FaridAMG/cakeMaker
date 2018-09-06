@@ -17,7 +17,7 @@ list(APPEND THIRD_PARTY_LIBS Qt5::Widgets Qt5::Core Qt5::Gui)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES cakeMaker main.cpp mainwindow.h mainwindow.cpp mainwindow.ui ui_mainwindow.h)
+set(SOURCE_FILES cakeMaker main.cpp mainwindow.h mainwindow.cpp mainwindow.ui ui_mainwindow.h cakeCode/cake.cpp cakeCode/cake.h)
 
 
 

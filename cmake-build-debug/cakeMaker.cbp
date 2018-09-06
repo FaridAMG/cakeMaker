@@ -116,6 +116,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/cake.cpp">
+			<Option target="cakeMaker"/>
+		</Unit>
+		<Unit filename="/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/cake.h">
+			<Option target="cakeMaker"/>
+		</Unit>
 		<Unit filename="/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/cakeMaker">
 			<Option target="cakeMaker"/>
 		</Unit>

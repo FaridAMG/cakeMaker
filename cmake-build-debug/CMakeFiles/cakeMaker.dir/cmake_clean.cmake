@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cakeMaker_autogen.dir/AutogenOldSettings.cmake"
   "CMakeFiles/cakeMaker.dir/main.cpp.o"
   "CMakeFiles/cakeMaker.dir/mainwindow.cpp.o"
+  "CMakeFiles/cakeMaker.dir/cakeCode/cake.cpp.o"
   "CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o"
   "cakeMaker.pdb"
   "cakeMaker"

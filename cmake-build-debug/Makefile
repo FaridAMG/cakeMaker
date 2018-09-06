@@ -136,6 +136,33 @@ cakeMaker_autogen/fast:
 	$(MAKE) -f CMakeFiles/cakeMaker_autogen.dir/build.make CMakeFiles/cakeMaker_autogen.dir/build
 .PHONY : cakeMaker_autogen/fast
 
+cakeCode/cake.o: cakeCode/cake.cpp.o
+
+.PHONY : cakeCode/cake.o
+
+# target to build an object file
+cakeCode/cake.cpp.o:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/cakeCode/cake.cpp.o
+.PHONY : cakeCode/cake.cpp.o
+
+cakeCode/cake.i: cakeCode/cake.cpp.i
+
+.PHONY : cakeCode/cake.i
+
+# target to preprocess a source file
+cakeCode/cake.cpp.i:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/cakeCode/cake.cpp.i
+.PHONY : cakeCode/cake.cpp.i
+
+cakeCode/cake.s: cakeCode/cake.cpp.s
+
+.PHONY : cakeCode/cake.s
+
+# target to generate assembly for a file
+cakeCode/cake.cpp.s:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/cakeCode/cake.cpp.s
+.PHONY : cakeCode/cake.cpp.s
+
 cakeMaker_autogen/mocs_compilation.o: cakeMaker_autogen/mocs_compilation.cpp.o
 
 .PHONY : cakeMaker_autogen/mocs_compilation.o
@@ -227,6 +254,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cakeMaker"
 	@echo "... cakeMaker_autogen"
+	@echo "... cakeCode/cake.o"
+	@echo "... cakeCode/cake.i"
+	@echo "... cakeCode/cake.s"
 	@echo "... cakeMaker_autogen/mocs_compilation.o"
 	@echo "... cakeMaker_autogen/mocs_compilation.i"
 	@echo "... cakeMaker_autogen/mocs_compilation.s"

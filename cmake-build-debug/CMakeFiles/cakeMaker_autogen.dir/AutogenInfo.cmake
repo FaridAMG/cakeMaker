@@ -7,8 +7,8 @@ set(AM_CMAKE_CURRENT_SOURCE_DIR "/home/farida/Documents/gitKraken repositories/c
 set(AM_CMAKE_CURRENT_BINARY_DIR "/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/")
 set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "")
 set(AM_BUILD_DIR "/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/cakeMaker_autogen")
-set(AM_SOURCES "/home/farida/Documents/gitKraken repositories/cakeMaker/main.cpp;/home/farida/Documents/gitKraken repositories/cakeMaker/mainwindow.cpp")
-set(AM_HEADERS "/home/farida/Documents/gitKraken repositories/cakeMaker/mainwindow.h;/home/farida/Documents/gitKraken repositories/cakeMaker/ui_mainwindow.h")
+set(AM_SOURCES "/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/cake.cpp;/home/farida/Documents/gitKraken repositories/cakeMaker/main.cpp;/home/farida/Documents/gitKraken repositories/cakeMaker/mainwindow.cpp")
+set(AM_HEADERS "/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/cake.h;/home/farida/Documents/gitKraken repositories/cakeMaker/mainwindow.h;/home/farida/Documents/gitKraken repositories/cakeMaker/ui_mainwindow.h")
 # Qt environment
 set(AM_QT_VERSION_MAJOR "5")
 set(AM_QT_VERSION_MINOR "9")
