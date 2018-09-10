@@ -4,9 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/cakeMaker_autogen/mocs_compilation.cpp" "/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o"
-  "/home/farida/Documents/gitKraken repositories/cakeMaker/main.cpp" "/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/CMakeFiles/cakeMaker.dir/main.cpp.o"
-  "/home/farida/Documents/gitKraken repositories/cakeMaker/mainwindow.cpp" "/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/CMakeFiles/cakeMaker.dir/mainwindow.cpp.o"
+  "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/CakeTemp.cpp" "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/CMakeFiles/cakeMaker.dir/CakeTemp.cpp.o"
+  "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/ListTemp.cpp" "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/CMakeFiles/cakeMaker.dir/ListTemp.cpp.o"
+  "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/QueueTemp.cpp" "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/CMakeFiles/cakeMaker.dir/QueueTemp.cpp.o"
+  "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/cakeMaker_autogen/mocs_compilation.cpp" "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o"
+  "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/main.cpp" "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/CMakeFiles/cakeMaker.dir/main.cpp.o"
+  "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/mainwindow.cpp" "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/CMakeFiles/cakeMaker.dir/mainwindow.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -22,11 +25,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "."
   "../"
   "cakeMaker_autogen/include"
-  "/home/farida/IDEs/Qt/5.9.1/gcc_64/include"
-  "/home/farida/IDEs/Qt/5.9.1/gcc_64/include/QtCore"
-  "/home/farida/IDEs/Qt/5.9.1/gcc_64/./mkspecs/linux-g++"
-  "/home/farida/IDEs/Qt/5.9.1/gcc_64/include/QtWidgets"
-  "/home/farida/IDEs/Qt/5.9.1/gcc_64/include/QtGui"
+  "/home/gustavo/Programas/Qt/5.11.1/gcc_64/include"
+  "/home/gustavo/Programas/Qt/5.11.1/gcc_64/include/QtCore"
+  "/home/gustavo/Programas/Qt/5.11.1/gcc_64/./mkspecs/linux-g++"
+  "/home/gustavo/Programas/Qt/5.11.1/gcc_64/include/QtWidgets"
+  "/home/gustavo/Programas/Qt/5.11.1/gcc_64/include/QtGui"
   )
 
 # Targets to which this target links.

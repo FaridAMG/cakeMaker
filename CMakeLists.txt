@@ -7,7 +7,7 @@ set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_AUTOMOC ON)
 
 find_package(Qt5Widgets CONFIG #Build files were created in my computer, with this cmake QtWidgets
-        PATHS /home/farida/IDEs/Qt/5.9.1/gcc_64/lib/cmake#Build your own
+        PATHS /home/gustavo/Programas/Qt/5.11.1/gcc_64/lib/cmake#Build your own
         NO_DEFAULT_PATH)
 
 
@@ -17,7 +17,7 @@ list(APPEND THIRD_PARTY_LIBS Qt5::Widgets Qt5::Core Qt5::Gui)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES cakeMaker main.cpp mainwindow.h mainwindow.cpp mainwindow.ui ui_mainwindow.h)
+set(SOURCE_FILES cakeMaker main.cpp mainwindow.h mainwindow.cpp mainwindow.ui ui_mainwindow.h QueueTemp.h QueueTemp.cpp CakeTemp.cpp CakeTemp.h ListTemp.h ListTemp.cpp MemoryLogic.h)
 
 
 

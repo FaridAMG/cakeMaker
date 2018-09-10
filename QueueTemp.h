@@ -1,0 +1,24 @@
+//
+// Created by gustavo on 9/09/18.
+//
+
+#ifndef CAKEMAKER_QUEUE_H
+#define CAKEMAKER_QUEUE_H
+
+#include <string>
+#include "CakeTemp.h"
+
+class Queue{
+    public:
+
+        Queue();
+
+        Queue();
+
+        void push(Cake pCake);
+        Cake pull();
+        bool isEmpty();
+
+};
+
+#endif //CAKEMAKER_QUEUE_H
