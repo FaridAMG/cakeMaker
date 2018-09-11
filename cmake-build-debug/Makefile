@@ -48,10 +48,10 @@ RM = /home/gustavo/clion-2018.2/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker"
+CMAKE_SOURCE_DIR = "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/CMakeFiles" "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug/CMakeFiles" "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -189,6 +189,33 @@ ListTemp.s: ListTemp.cpp.s
 ListTemp.cpp.s:
 	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/ListTemp.cpp.s
 .PHONY : ListTemp.cpp.s
+
+MemoryLogic.o: MemoryLogic.cpp.o
+
+.PHONY : MemoryLogic.o
+
+# target to build an object file
+MemoryLogic.cpp.o:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/MemoryLogic.cpp.o
+.PHONY : MemoryLogic.cpp.o
+
+MemoryLogic.i: MemoryLogic.cpp.i
+
+.PHONY : MemoryLogic.i
+
+# target to preprocess a source file
+MemoryLogic.cpp.i:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/MemoryLogic.cpp.i
+.PHONY : MemoryLogic.cpp.i
+
+MemoryLogic.s: MemoryLogic.cpp.s
+
+.PHONY : MemoryLogic.s
+
+# target to generate assembly for a file
+MemoryLogic.cpp.s:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/MemoryLogic.cpp.s
+.PHONY : MemoryLogic.cpp.s
 
 QueueTemp.o: QueueTemp.cpp.o
 
@@ -314,6 +341,9 @@ help:
 	@echo "... ListTemp.o"
 	@echo "... ListTemp.i"
 	@echo "... ListTemp.s"
+	@echo "... MemoryLogic.o"
+	@echo "... MemoryLogic.i"
+	@echo "... MemoryLogic.s"
 	@echo "... QueueTemp.o"
 	@echo "... QueueTemp.i"
 	@echo "... QueueTemp.s"

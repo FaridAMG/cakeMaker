@@ -11,11 +11,11 @@ List::List() {
 }
 
 void List::takeOut(int pId) {
-    std::cout << "A cake has been taken out";
+    std::cout << "A cake has been taken out" << std::endl;
 }
 
 void List::takeIn(Cake pCake) {
-    std:: cout << "A cake has been added";
+    std:: cout << "A cake has been added" << std::endl;
 }
 
 int List::getMaxHours() {
@@ -24,12 +24,16 @@ int List::getMaxHours() {
 
 void List::setMaxHours(int pMaxHours) {
     this->_maxHours = pMaxHours;
-    std:: cout << "Max hours has been setted";
+    std:: cout << "Max hours has been setted" << std::endl;
 
 }
 
 Cake List::move(int pId) {
     Cake cake;
     return cake;
+}
+
+int List::findHeavyCake() {
+    return 0;
 }
 

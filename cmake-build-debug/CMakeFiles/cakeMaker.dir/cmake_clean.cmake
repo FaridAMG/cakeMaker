@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cakeMaker.dir/QueueTemp.cpp.o"
   "CMakeFiles/cakeMaker.dir/CakeTemp.cpp.o"
   "CMakeFiles/cakeMaker.dir/ListTemp.cpp.o"
+  "CMakeFiles/cakeMaker.dir/MemoryLogic.cpp.o"
   "CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o"
   "cakeMaker.pdb"
   "cakeMaker"

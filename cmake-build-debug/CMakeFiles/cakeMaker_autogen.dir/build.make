@@ -43,10 +43,10 @@ RM = /home/gustavo/clion-2018.2/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker"
+CMAKE_SOURCE_DIR = "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug"
 
 # Utility rule file for cakeMaker_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algo
 include CMakeFiles/cakeMaker_autogen.dir/progress.make
 
 CMakeFiles/cakeMaker_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target cakeMaker"
-	/home/gustavo/clion-2018.2/bin/cmake/linux/bin/cmake -E cmake_autogen "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/CMakeFiles/cakeMaker_autogen.dir/AutogenInfo.cmake" Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target cakeMaker"
+	/home/gustavo/clion-2018.2/bin/cmake/linux/bin/cmake -E cmake_autogen "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug/CMakeFiles/cakeMaker_autogen.dir/AutogenInfo.cmake" Debug
 
 cakeMaker_autogen: CMakeFiles/cakeMaker_autogen
 cakeMaker_autogen: CMakeFiles/cakeMaker_autogen.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/cakeMaker_autogen.dir/clean:
 .PHONY : CMakeFiles/cakeMaker_autogen.dir/clean
 
 CMakeFiles/cakeMaker_autogen.dir/depend:
-	cd "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker" "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker" "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug" "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug" "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/CMakeFiles/cakeMaker_autogen.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker" "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker" "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug" "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug" "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug/CMakeFiles/cakeMaker_autogen.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/cakeMaker_autogen.dir/depend
 

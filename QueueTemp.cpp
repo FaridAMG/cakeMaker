@@ -12,7 +12,7 @@ Queue::Queue() {
 }
 
 void Queue::push(Cake pCake) {
-    std::cout << "A cake has been added";
+    std::cout << "A cake has been added" << std::endl;
 }
 
 Cake Queue::pull() {

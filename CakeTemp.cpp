@@ -6,9 +6,12 @@
 #include <string>
 #include "iostream"
 
+Cake::Cake() {
+
+}
 
 void Cake::startThread() {
-    std:: cout << "A cake thread has been initialized";
+    std:: cout << "A cake thread has been initialized" << std::endl;
 }
 
 int Cake::getId() {
@@ -17,7 +20,7 @@ int Cake::getId() {
 
 void Cake::setId(int pId) {
     this->_id = pId;
-    std:: cout << "Id has been changed";
+    std:: cout << "Id has been changed" << std::endl;
 }
 
 int Cake::getActualWeight() {
@@ -26,7 +29,7 @@ int Cake::getActualWeight() {
 
 void Cake::setActualWeight(int pActualWeight) {
     this->_actualWeight = pActualWeight;
-    std:: cout << "Actual weight has been changed";
+    std:: cout << "Actual weight has been changed" << std::endl;
 }
 
 bool Cake::getIsReady() {
@@ -35,5 +38,5 @@ bool Cake::getIsReady() {
 
 void Cake::setIsReady(bool pIsReady) {
     this->_isReady = pIsReady;
-    std:: "Is Ready has been changed";
+    std:: cout << "Is Ready has been changed" << std::endl;
 }

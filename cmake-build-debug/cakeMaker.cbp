@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\Programas\;CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\;CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\;CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\;CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\;CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\;CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Core\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug"/>
+				<Option working_dir="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/CakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/CakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/CakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/CakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/cakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/cakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/cakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/cakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug"/>
+				<Option working_dir="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/CakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/CakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/CakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/CakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/cakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/cakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/cakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/cakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug"/>
+				<Option working_dir="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/CakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/CakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/CakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/CakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/cakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/cakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/cakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/cakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="cakeMaker">
-				<Option output="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/cakeMaker" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug"/>
+				<Option output="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug/cakeMaker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -47,9 +47,9 @@
 					<Add option="-DQT_CORE_LIB"/>
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
-					<Add directory="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug"/>
-					<Add directory="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker"/>
-					<Add directory="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/cakeMaker_autogen/include"/>
+					<Add directory="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug"/>
+					<Add directory="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker"/>
+					<Add directory="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug/cakeMaker_autogen/include"/>
 					<Add directory="/home/gustavo/Programas/Qt/5.11.1/gcc_64/include"/>
 					<Add directory="/home/gustavo/Programas/Qt/5.11.1/gcc_64/include/QtCore"/>
 					<Add directory="/home/gustavo/Programas/Qt/5.11.1/gcc_64/./mkspecs/linux-g++"/>
@@ -65,15 +65,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/CakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 cakeMaker"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/CakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/CakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/CakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/cakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 cakeMaker"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/cakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/cakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/cakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="cakeMaker/fast">
-				<Option output="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/cakeMaker" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug"/>
+				<Option output="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug/cakeMaker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -81,9 +81,9 @@
 					<Add option="-DQT_CORE_LIB"/>
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
-					<Add directory="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug"/>
-					<Add directory="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker"/>
-					<Add directory="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/cakeMaker_autogen/include"/>
+					<Add directory="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug"/>
+					<Add directory="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker"/>
+					<Add directory="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug/cakeMaker_autogen/include"/>
 					<Add directory="/home/gustavo/Programas/Qt/5.11.1/gcc_64/include"/>
 					<Add directory="/home/gustavo/Programas/Qt/5.11.1/gcc_64/include/QtCore"/>
 					<Add directory="/home/gustavo/Programas/Qt/5.11.1/gcc_64/./mkspecs/linux-g++"/>
@@ -99,207 +99,207 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/CakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 cakeMaker/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/CakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/CakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/CakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/cakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 cakeMaker/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/cakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/cakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/cakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="cakeMaker_autogen">
-				<Option working_dir="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug"/>
+				<Option working_dir="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/CakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 cakeMaker_autogen"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/CakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/CakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/CakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/cakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 cakeMaker_autogen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/cakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/cakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gustavo/Escritorio/Google\ Drive\ Ubuntu/TEC/Cursos/Algoritmos\ y\ estructuras\ de\ datos\ 2/Tareas/Tarea\ corta/cakeMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/CakeTemp.cpp">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/CakeTemp.cpp">
 			<Option target="cakeMaker"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/CakeTemp.h">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/CakeTemp.h">
 			<Option target="cakeMaker"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/ListTemp.cpp">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/ListTemp.cpp">
 			<Option target="cakeMaker"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/ListTemp.h">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/ListTemp.h">
 			<Option target="cakeMaker"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/MemoryLogic.h">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/MemoryLogic.cpp">
 			<Option target="cakeMaker"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/QueueTemp.cpp">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/MemoryLogic.h">
 			<Option target="cakeMaker"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/QueueTemp.h">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/QueueTemp.cpp">
 			<Option target="cakeMaker"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/cakeMaker">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/QueueTemp.h">
 			<Option target="cakeMaker"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/cakeMaker_autogen/mocs_compilation.cpp">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug/cakeMaker_autogen/mocs_compilation.cpp">
 			<Option target="cakeMaker"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/main.cpp">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/main.cpp">
 			<Option target="cakeMaker"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/mainwindow.cpp">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/mainwindow.cpp">
 			<Option target="cakeMaker"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/mainwindow.h">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/mainwindow.h">
 			<Option target="cakeMaker"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/mainwindow.ui">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/mainwindow.ui">
 			<Option target="cakeMaker"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/ui_mainwindow.h">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/ui_mainwindow.h">
 			<Option target="cakeMaker"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/CMakeLists.txt">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QFlatpakThemePlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QFlatpakThemePlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/../../../../../../../../Programas/Qt/5.11.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Programas\Qt\5.11.1\gcc_64\lib\cmake\Qt5Core\"/>
 		</Unit>
 	</Project>

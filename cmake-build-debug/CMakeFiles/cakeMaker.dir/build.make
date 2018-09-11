@@ -43,10 +43,10 @@ RM = /home/gustavo/clion-2018.2/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker"
+CMAKE_SOURCE_DIR = "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cakeMaker.dir/depend.make
@@ -59,81 +59,94 @@ include CMakeFiles/cakeMaker.dir/flags.make
 
 CMakeFiles/cakeMaker.dir/main.cpp.o: CMakeFiles/cakeMaker.dir/flags.make
 CMakeFiles/cakeMaker.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cakeMaker.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cakeMaker.dir/main.cpp.o -c "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cakeMaker.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cakeMaker.dir/main.cpp.o -c "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/main.cpp"
 
 CMakeFiles/cakeMaker.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cakeMaker.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/main.cpp" > CMakeFiles/cakeMaker.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/main.cpp" > CMakeFiles/cakeMaker.dir/main.cpp.i
 
 CMakeFiles/cakeMaker.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cakeMaker.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/main.cpp" -o CMakeFiles/cakeMaker.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/main.cpp" -o CMakeFiles/cakeMaker.dir/main.cpp.s
 
 CMakeFiles/cakeMaker.dir/mainwindow.cpp.o: CMakeFiles/cakeMaker.dir/flags.make
 CMakeFiles/cakeMaker.dir/mainwindow.cpp.o: ../mainwindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cakeMaker.dir/mainwindow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cakeMaker.dir/mainwindow.cpp.o -c "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/mainwindow.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cakeMaker.dir/mainwindow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cakeMaker.dir/mainwindow.cpp.o -c "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/mainwindow.cpp"
 
 CMakeFiles/cakeMaker.dir/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cakeMaker.dir/mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/mainwindow.cpp" > CMakeFiles/cakeMaker.dir/mainwindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/mainwindow.cpp" > CMakeFiles/cakeMaker.dir/mainwindow.cpp.i
 
 CMakeFiles/cakeMaker.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cakeMaker.dir/mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/mainwindow.cpp" -o CMakeFiles/cakeMaker.dir/mainwindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/mainwindow.cpp" -o CMakeFiles/cakeMaker.dir/mainwindow.cpp.s
 
 CMakeFiles/cakeMaker.dir/QueueTemp.cpp.o: CMakeFiles/cakeMaker.dir/flags.make
 CMakeFiles/cakeMaker.dir/QueueTemp.cpp.o: ../QueueTemp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cakeMaker.dir/QueueTemp.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cakeMaker.dir/QueueTemp.cpp.o -c "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/QueueTemp.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cakeMaker.dir/QueueTemp.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cakeMaker.dir/QueueTemp.cpp.o -c "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/QueueTemp.cpp"
 
 CMakeFiles/cakeMaker.dir/QueueTemp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cakeMaker.dir/QueueTemp.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/QueueTemp.cpp" > CMakeFiles/cakeMaker.dir/QueueTemp.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/QueueTemp.cpp" > CMakeFiles/cakeMaker.dir/QueueTemp.cpp.i
 
 CMakeFiles/cakeMaker.dir/QueueTemp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cakeMaker.dir/QueueTemp.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/QueueTemp.cpp" -o CMakeFiles/cakeMaker.dir/QueueTemp.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/QueueTemp.cpp" -o CMakeFiles/cakeMaker.dir/QueueTemp.cpp.s
 
 CMakeFiles/cakeMaker.dir/CakeTemp.cpp.o: CMakeFiles/cakeMaker.dir/flags.make
 CMakeFiles/cakeMaker.dir/CakeTemp.cpp.o: ../CakeTemp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cakeMaker.dir/CakeTemp.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cakeMaker.dir/CakeTemp.cpp.o -c "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/CakeTemp.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cakeMaker.dir/CakeTemp.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cakeMaker.dir/CakeTemp.cpp.o -c "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/CakeTemp.cpp"
 
 CMakeFiles/cakeMaker.dir/CakeTemp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cakeMaker.dir/CakeTemp.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/CakeTemp.cpp" > CMakeFiles/cakeMaker.dir/CakeTemp.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/CakeTemp.cpp" > CMakeFiles/cakeMaker.dir/CakeTemp.cpp.i
 
 CMakeFiles/cakeMaker.dir/CakeTemp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cakeMaker.dir/CakeTemp.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/CakeTemp.cpp" -o CMakeFiles/cakeMaker.dir/CakeTemp.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/CakeTemp.cpp" -o CMakeFiles/cakeMaker.dir/CakeTemp.cpp.s
 
 CMakeFiles/cakeMaker.dir/ListTemp.cpp.o: CMakeFiles/cakeMaker.dir/flags.make
 CMakeFiles/cakeMaker.dir/ListTemp.cpp.o: ../ListTemp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cakeMaker.dir/ListTemp.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cakeMaker.dir/ListTemp.cpp.o -c "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/ListTemp.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cakeMaker.dir/ListTemp.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cakeMaker.dir/ListTemp.cpp.o -c "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/ListTemp.cpp"
 
 CMakeFiles/cakeMaker.dir/ListTemp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cakeMaker.dir/ListTemp.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/ListTemp.cpp" > CMakeFiles/cakeMaker.dir/ListTemp.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/ListTemp.cpp" > CMakeFiles/cakeMaker.dir/ListTemp.cpp.i
 
 CMakeFiles/cakeMaker.dir/ListTemp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cakeMaker.dir/ListTemp.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/ListTemp.cpp" -o CMakeFiles/cakeMaker.dir/ListTemp.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/ListTemp.cpp" -o CMakeFiles/cakeMaker.dir/ListTemp.cpp.s
+
+CMakeFiles/cakeMaker.dir/MemoryLogic.cpp.o: CMakeFiles/cakeMaker.dir/flags.make
+CMakeFiles/cakeMaker.dir/MemoryLogic.cpp.o: ../MemoryLogic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cakeMaker.dir/MemoryLogic.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cakeMaker.dir/MemoryLogic.cpp.o -c "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/MemoryLogic.cpp"
+
+CMakeFiles/cakeMaker.dir/MemoryLogic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cakeMaker.dir/MemoryLogic.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/MemoryLogic.cpp" > CMakeFiles/cakeMaker.dir/MemoryLogic.cpp.i
+
+CMakeFiles/cakeMaker.dir/MemoryLogic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cakeMaker.dir/MemoryLogic.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/MemoryLogic.cpp" -o CMakeFiles/cakeMaker.dir/MemoryLogic.cpp.s
 
 CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o: CMakeFiles/cakeMaker.dir/flags.make
 CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o: cakeMaker_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o -c "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/cakeMaker_autogen/mocs_compilation.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o -c "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug/cakeMaker_autogen/mocs_compilation.cpp"
 
 CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/cakeMaker_autogen/mocs_compilation.cpp" > CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug/cakeMaker_autogen/mocs_compilation.cpp" > CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/cakeMaker_autogen/mocs_compilation.cpp" -o CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug/cakeMaker_autogen/mocs_compilation.cpp" -o CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.s
 
 # Object files for target cakeMaker
 cakeMaker_OBJECTS = \
@@ -142,6 +155,7 @@ cakeMaker_OBJECTS = \
 "CMakeFiles/cakeMaker.dir/QueueTemp.cpp.o" \
 "CMakeFiles/cakeMaker.dir/CakeTemp.cpp.o" \
 "CMakeFiles/cakeMaker.dir/ListTemp.cpp.o" \
+"CMakeFiles/cakeMaker.dir/MemoryLogic.cpp.o" \
 "CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o"
 
 # External object files for target cakeMaker
@@ -152,13 +166,14 @@ cakeMaker: CMakeFiles/cakeMaker.dir/mainwindow.cpp.o
 cakeMaker: CMakeFiles/cakeMaker.dir/QueueTemp.cpp.o
 cakeMaker: CMakeFiles/cakeMaker.dir/CakeTemp.cpp.o
 cakeMaker: CMakeFiles/cakeMaker.dir/ListTemp.cpp.o
+cakeMaker: CMakeFiles/cakeMaker.dir/MemoryLogic.cpp.o
 cakeMaker: CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o
 cakeMaker: CMakeFiles/cakeMaker.dir/build.make
 cakeMaker: /home/gustavo/Programas/Qt/5.11.1/gcc_64/lib/libQt5Widgets.so.5.11.1
 cakeMaker: /home/gustavo/Programas/Qt/5.11.1/gcc_64/lib/libQt5Gui.so.5.11.1
 cakeMaker: /home/gustavo/Programas/Qt/5.11.1/gcc_64/lib/libQt5Core.so.5.11.1
 cakeMaker: CMakeFiles/cakeMaker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable cakeMaker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable cakeMaker"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cakeMaker.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -171,6 +186,6 @@ CMakeFiles/cakeMaker.dir/clean:
 .PHONY : CMakeFiles/cakeMaker.dir/clean
 
 CMakeFiles/cakeMaker.dir/depend:
-	cd "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker" "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker" "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug" "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug" "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/CakeMaker/cmake-build-debug/CMakeFiles/cakeMaker.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker" "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker" "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug" "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug" "/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug/CMakeFiles/cakeMaker.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/cakeMaker.dir/depend
 

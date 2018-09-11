@@ -19,14 +19,14 @@ set(CMAKE_CXX_STANDARD 14)
 
 set(SOURCE_FILES cakeMaker main.cpp mainwindow.h mainwindow.cpp mainwindow.ui ui_mainwindow.h QueueTemp.h QueueTemp.cpp CakeTemp.cpp CakeTemp.h ListTemp.h ListTemp.cpp MemoryLogic.h)
 
-
+set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -pthread")
 
 #</ QT Extras>
 
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(cakeMaker ${SOURCE_FILES} )
+add_executable(${SOURCE_FILES} MemoryLogic.cpp)
 
 
 #<More QT Extras>

@@ -9,3 +9,16 @@ int main(int argc, char *argv[])
 
     return a.exec();
 }*/
+
+#include <iostream>
+#include <iostream>
+#include <string>
+#include <thread>
+
+
+int main(){
+
+
+
+
+}

@@ -21,6 +21,8 @@ class List{
         int getMaxHours();
         void setMaxHours(int pMaxHours);
         Cake move(int pId);
+        int findHeavyCake();
+        int actualWeight();
 
 
 };

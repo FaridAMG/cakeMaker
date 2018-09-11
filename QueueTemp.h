@@ -10,9 +10,6 @@
 
 class Queue{
     public:
-
-        Queue();
-
         Queue();
 
         void push(Cake pCake);
