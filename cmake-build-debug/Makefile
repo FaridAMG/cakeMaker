@@ -163,6 +163,33 @@ cakeCode/cake.cpp.s:
 	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/cakeCode/cake.cpp.s
 .PHONY : cakeCode/cake.cpp.s
 
+cakeCode/cakeFactory.o: cakeCode/cakeFactory.cpp.o
+
+.PHONY : cakeCode/cakeFactory.o
+
+# target to build an object file
+cakeCode/cakeFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/cakeCode/cakeFactory.cpp.o
+.PHONY : cakeCode/cakeFactory.cpp.o
+
+cakeCode/cakeFactory.i: cakeCode/cakeFactory.cpp.i
+
+.PHONY : cakeCode/cakeFactory.i
+
+# target to preprocess a source file
+cakeCode/cakeFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/cakeCode/cakeFactory.cpp.i
+.PHONY : cakeCode/cakeFactory.cpp.i
+
+cakeCode/cakeFactory.s: cakeCode/cakeFactory.cpp.s
+
+.PHONY : cakeCode/cakeFactory.s
+
+# target to generate assembly for a file
+cakeCode/cakeFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/cakeCode/cakeFactory.cpp.s
+.PHONY : cakeCode/cakeFactory.cpp.s
+
 cakeCode/chocolateCake.o: cakeCode/chocolateCake.cpp.o
 
 .PHONY : cakeCode/chocolateCake.o
@@ -338,6 +365,9 @@ help:
 	@echo "... cakeCode/cake.o"
 	@echo "... cakeCode/cake.i"
 	@echo "... cakeCode/cake.s"
+	@echo "... cakeCode/cakeFactory.o"
+	@echo "... cakeCode/cakeFactory.i"
+	@echo "... cakeCode/cakeFactory.s"
 	@echo "... cakeCode/chocolateCake.o"
 	@echo "... cakeCode/chocolateCake.i"
 	@echo "... cakeCode/chocolateCake.s"

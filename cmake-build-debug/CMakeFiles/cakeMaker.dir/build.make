@@ -201,9 +201,33 @@ CMakeFiles/cakeMaker.dir/cakeCode/strawBCake.cpp.o.provides: CMakeFiles/cakeMake
 CMakeFiles/cakeMaker.dir/cakeCode/strawBCake.cpp.o.provides.build: CMakeFiles/cakeMaker.dir/cakeCode/strawBCake.cpp.o
 
 
+CMakeFiles/cakeMaker.dir/cakeCode/cakeFactory.cpp.o: CMakeFiles/cakeMaker.dir/flags.make
+CMakeFiles/cakeMaker.dir/cakeCode/cakeFactory.cpp.o: ../cakeCode/cakeFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cakeMaker.dir/cakeCode/cakeFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cakeMaker.dir/cakeCode/cakeFactory.cpp.o -c "/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/cakeFactory.cpp"
+
+CMakeFiles/cakeMaker.dir/cakeCode/cakeFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cakeMaker.dir/cakeCode/cakeFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/cakeFactory.cpp" > CMakeFiles/cakeMaker.dir/cakeCode/cakeFactory.cpp.i
+
+CMakeFiles/cakeMaker.dir/cakeCode/cakeFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cakeMaker.dir/cakeCode/cakeFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/cakeFactory.cpp" -o CMakeFiles/cakeMaker.dir/cakeCode/cakeFactory.cpp.s
+
+CMakeFiles/cakeMaker.dir/cakeCode/cakeFactory.cpp.o.requires:
+
+.PHONY : CMakeFiles/cakeMaker.dir/cakeCode/cakeFactory.cpp.o.requires
+
+CMakeFiles/cakeMaker.dir/cakeCode/cakeFactory.cpp.o.provides: CMakeFiles/cakeMaker.dir/cakeCode/cakeFactory.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/cakeCode/cakeFactory.cpp.o.provides.build
+.PHONY : CMakeFiles/cakeMaker.dir/cakeCode/cakeFactory.cpp.o.provides
+
+CMakeFiles/cakeMaker.dir/cakeCode/cakeFactory.cpp.o.provides.build: CMakeFiles/cakeMaker.dir/cakeCode/cakeFactory.cpp.o
+
+
 CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o: CMakeFiles/cakeMaker.dir/flags.make
 CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o: cakeMaker_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o -c "/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/cakeMaker_autogen/mocs_compilation.cpp"
 
 CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.i: cmake_force
@@ -233,6 +257,7 @@ cakeMaker_OBJECTS = \
 "CMakeFiles/cakeMaker.dir/cakeCode/vanillaCake.cpp.o" \
 "CMakeFiles/cakeMaker.dir/cakeCode/chocolateCake.cpp.o" \
 "CMakeFiles/cakeMaker.dir/cakeCode/strawBCake.cpp.o" \
+"CMakeFiles/cakeMaker.dir/cakeCode/cakeFactory.cpp.o" \
 "CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o"
 
 # External object files for target cakeMaker
@@ -244,13 +269,14 @@ cakeMaker: CMakeFiles/cakeMaker.dir/cakeCode/cake.cpp.o
 cakeMaker: CMakeFiles/cakeMaker.dir/cakeCode/vanillaCake.cpp.o
 cakeMaker: CMakeFiles/cakeMaker.dir/cakeCode/chocolateCake.cpp.o
 cakeMaker: CMakeFiles/cakeMaker.dir/cakeCode/strawBCake.cpp.o
+cakeMaker: CMakeFiles/cakeMaker.dir/cakeCode/cakeFactory.cpp.o
 cakeMaker: CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o
 cakeMaker: CMakeFiles/cakeMaker.dir/build.make
 cakeMaker: /home/farida/IDEs/Qt/5.9.1/gcc_64/lib/libQt5Widgets.so.5.9.1
 cakeMaker: /home/farida/IDEs/Qt/5.9.1/gcc_64/lib/libQt5Gui.so.5.9.1
 cakeMaker: /home/farida/IDEs/Qt/5.9.1/gcc_64/lib/libQt5Core.so.5.9.1
 cakeMaker: CMakeFiles/cakeMaker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable cakeMaker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable cakeMaker"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cakeMaker.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -264,6 +290,7 @@ CMakeFiles/cakeMaker.dir/requires: CMakeFiles/cakeMaker.dir/cakeCode/cake.cpp.o.
 CMakeFiles/cakeMaker.dir/requires: CMakeFiles/cakeMaker.dir/cakeCode/vanillaCake.cpp.o.requires
 CMakeFiles/cakeMaker.dir/requires: CMakeFiles/cakeMaker.dir/cakeCode/chocolateCake.cpp.o.requires
 CMakeFiles/cakeMaker.dir/requires: CMakeFiles/cakeMaker.dir/cakeCode/strawBCake.cpp.o.requires
+CMakeFiles/cakeMaker.dir/requires: CMakeFiles/cakeMaker.dir/cakeCode/cakeFactory.cpp.o.requires
 CMakeFiles/cakeMaker.dir/requires: CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o.requires
 
 .PHONY : CMakeFiles/cakeMaker.dir/requires

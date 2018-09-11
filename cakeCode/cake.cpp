@@ -4,6 +4,7 @@
 
 #include <ctime>
 #include <iostream>
+#include <thread>
 #include "cake.h"
 
 
@@ -103,6 +104,13 @@ void cake::timer(int _seconds) {
     }
 
 cake::cake() {}
+
+void cake::runThread() {
+
+    newCake = std::thread(runTheChef());
+    newCake.join();
+
+}
 
 
 

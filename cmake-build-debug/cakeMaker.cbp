@@ -122,6 +122,12 @@
 		<Unit filename="/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/cake.h">
 			<Option target="cakeMaker"/>
 		</Unit>
+		<Unit filename="/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/cakeFactory.cpp">
+			<Option target="cakeMaker"/>
+		</Unit>
+		<Unit filename="/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/cakeFactory.h">
+			<Option target="cakeMaker"/>
+		</Unit>
 		<Unit filename="/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/chocolateCake.cpp">
 			<Option target="cakeMaker"/>
 		</Unit>

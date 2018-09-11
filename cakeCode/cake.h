@@ -10,6 +10,7 @@
 
 class cake {
 
+    std::thread newCake;
     std::list<int> _toDo = {1,2,3,4,5};
     std::list<int> _ready;
     std::string fase = "none";
@@ -20,16 +21,7 @@ class cake {
 protected:
     void set_isReady(bool _isReady);
     void set_actualWeight(int _actualWeight);
-
-public:
-    cake();
-
-    // getters and setters
     void runTheChef();
-    bool is_isReady() const;
-    int get_id() const;
-    void set_id(int _id);
-    int get_actualWeight() const;
 
     // cake making process
     bool mantecarPyrex();
@@ -38,8 +30,21 @@ public:
     virtual bool hacerTopping();
     virtual bool ponerTopping();
 
+public:
+    cake();
+
+    // getters and setters
+    bool is_isReady() const;
+    int get_id() const;
+    void set_id(int _id);
+    int get_actualWeight() const;
+
+
     //timer till ready
     void timer(int _seconds);
+
+    // lets the thread join and run
+    void runThread();
 
 };
 

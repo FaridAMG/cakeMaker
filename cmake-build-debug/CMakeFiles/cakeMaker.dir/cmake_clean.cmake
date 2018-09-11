@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cakeMaker.dir/cakeCode/vanillaCake.cpp.o"
   "CMakeFiles/cakeMaker.dir/cakeCode/chocolateCake.cpp.o"
   "CMakeFiles/cakeMaker.dir/cakeCode/strawBCake.cpp.o"
+  "CMakeFiles/cakeMaker.dir/cakeCode/cakeFactory.cpp.o"
   "CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o"
   "cakeMaker.pdb"
   "cakeMaker"

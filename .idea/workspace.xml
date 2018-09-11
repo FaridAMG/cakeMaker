@@ -36,8 +36,8 @@
       <file leaf-file-name="cake.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cakeCode/cake.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+            <state relative-caret-position="288">
+              <caret line="107" column="24" lean-forward="true" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="24" />
               <folding>
                 <element signature="e#41#57#0" expanded="true" />
               </folding>
@@ -45,11 +45,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cake.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cake.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cakeCode/cake.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+            <state relative-caret-position="165">
+              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cakeFactory.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cakeCode/cakeFactory.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding>
+                <element signature="e#41#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cakeFactory.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cakeCode/cakeFactory.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#107#124#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,8 +97,10 @@
         <option value="$PROJECT_DIR$/cakeCode/strawBCake.cpp" />
         <option value="$PROJECT_DIR$/cakeCode/vanillaCake.h" />
         <option value="$PROJECT_DIR$/cakeCode/vanillaCake.cpp" />
-        <option value="$PROJECT_DIR$/cakeCode/cake.h" />
+        <option value="$PROJECT_DIR$/cakeCode/cakeFactory.h" />
         <option value="$PROJECT_DIR$/cakeCode/cake.cpp" />
+        <option value="$PROJECT_DIR$/cakeCode/cakeFactory.cpp" />
+        <option value="$PROJECT_DIR$/cakeCode/cake.h" />
       </list>
     </option>
   </component>
@@ -160,12 +186,12 @@
       <workItem from="1534916825149" duration="182000" />
       <workItem from="1534917009952" duration="5254000" />
       <workItem from="1536259306763" duration="2916000" />
-      <workItem from="1536538508115" duration="9101000" />
+      <workItem from="1536538508115" duration="11824000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17453000" />
+    <option name="totallyTimeSpent" value="20176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
@@ -363,8 +389,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cakeCode/cake.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+        <state relative-caret-position="288">
+          <caret line="107" column="24" lean-forward="true" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="24" />
           <folding>
             <element signature="e#41#57#0" expanded="true" />
           </folding>
@@ -373,8 +399,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cakeCode/cake.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        <state relative-caret-position="165">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cakeCode/cakeFactory.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="e#41#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cakeCode/cakeFactory.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#107#124#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
