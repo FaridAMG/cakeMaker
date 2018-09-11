@@ -10,22 +10,35 @@
 
 class cake {
 
-    std::list<int> toDo = {1,2,3,4,5};
-    std::list<int> ready;
-    bool isReady = false;
+    std::list<int> _toDo = {1,2,3,4,5};
+    std::list<int> _ready;
+    std::string fase;
+    bool _isReady = false;
+    int _id;
+    int _actualWeight;
+
+protected:
+    void set_isReady(bool _isReady);
+    void set_actualWeight(int _actualWeight);
 
 public:
     cake();
 
-    void theChef();
-    
+    // getters and setters
+    void runTheChef();
+    bool is_isReady() const;
+    int get_id() const;
+    void set_id(int _id);
+    int get_actualWeight() const;
+
+    // cake making process
     bool mantecarPyrex();
     bool crearMezcla();
     bool hornearMezcla();
     bool hacerTopping();
     bool ponerTopping();
 
-    bool isIsReady() const;
+    void timer(int _seconds);
 
 };
 
