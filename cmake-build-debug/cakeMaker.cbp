@@ -122,6 +122,24 @@
 		<Unit filename="/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/cake.h">
 			<Option target="cakeMaker"/>
 		</Unit>
+		<Unit filename="/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/chocolateCake.cpp">
+			<Option target="cakeMaker"/>
+		</Unit>
+		<Unit filename="/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/chocolateCake.h">
+			<Option target="cakeMaker"/>
+		</Unit>
+		<Unit filename="/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/strawBCake.cpp">
+			<Option target="cakeMaker"/>
+		</Unit>
+		<Unit filename="/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/strawBCake.h">
+			<Option target="cakeMaker"/>
+		</Unit>
+		<Unit filename="/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/vanillaCake.cpp">
+			<Option target="cakeMaker"/>
+		</Unit>
+		<Unit filename="/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/vanillaCake.h">
+			<Option target="cakeMaker"/>
+		</Unit>
 		<Unit filename="/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/cakeMaker">
 			<Option target="cakeMaker"/>
 		</Unit>

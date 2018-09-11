@@ -12,10 +12,10 @@ class cake {
 
     std::list<int> _toDo = {1,2,3,4,5};
     std::list<int> _ready;
-    std::string fase;
+    std::string fase = "none";
     bool _isReady = false;
-    int _id;
-    int _actualWeight;
+    int _id = 0;
+    int _actualWeight = 0;
 
 protected:
     void set_isReady(bool _isReady);
@@ -33,11 +33,12 @@ public:
 
     // cake making process
     bool mantecarPyrex();
-    bool crearMezcla();
+    virtual bool crearMezcla();
     bool hornearMezcla();
-    bool hacerTopping();
-    bool ponerTopping();
+    virtual bool hacerTopping();
+    virtual bool ponerTopping();
 
+    //timer till ready
     void timer(int _seconds);
 
 };

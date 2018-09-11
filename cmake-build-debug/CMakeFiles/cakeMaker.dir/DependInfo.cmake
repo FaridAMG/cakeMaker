@@ -5,6 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/cake.cpp" "/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/CMakeFiles/cakeMaker.dir/cakeCode/cake.cpp.o"
+  "/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/chocolateCake.cpp" "/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/CMakeFiles/cakeMaker.dir/cakeCode/chocolateCake.cpp.o"
+  "/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/strawBCake.cpp" "/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/CMakeFiles/cakeMaker.dir/cakeCode/strawBCake.cpp.o"
+  "/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/vanillaCake.cpp" "/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/CMakeFiles/cakeMaker.dir/cakeCode/vanillaCake.cpp.o"
   "/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/cakeMaker_autogen/mocs_compilation.cpp" "/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o"
   "/home/farida/Documents/gitKraken repositories/cakeMaker/main.cpp" "/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/CMakeFiles/cakeMaker.dir/main.cpp.o"
   "/home/farida/Documents/gitKraken repositories/cakeMaker/mainwindow.cpp" "/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/CMakeFiles/cakeMaker.dir/mainwindow.cpp.o"

@@ -163,6 +163,87 @@ cakeCode/cake.cpp.s:
 	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/cakeCode/cake.cpp.s
 .PHONY : cakeCode/cake.cpp.s
 
+cakeCode/chocolateCake.o: cakeCode/chocolateCake.cpp.o
+
+.PHONY : cakeCode/chocolateCake.o
+
+# target to build an object file
+cakeCode/chocolateCake.cpp.o:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/cakeCode/chocolateCake.cpp.o
+.PHONY : cakeCode/chocolateCake.cpp.o
+
+cakeCode/chocolateCake.i: cakeCode/chocolateCake.cpp.i
+
+.PHONY : cakeCode/chocolateCake.i
+
+# target to preprocess a source file
+cakeCode/chocolateCake.cpp.i:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/cakeCode/chocolateCake.cpp.i
+.PHONY : cakeCode/chocolateCake.cpp.i
+
+cakeCode/chocolateCake.s: cakeCode/chocolateCake.cpp.s
+
+.PHONY : cakeCode/chocolateCake.s
+
+# target to generate assembly for a file
+cakeCode/chocolateCake.cpp.s:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/cakeCode/chocolateCake.cpp.s
+.PHONY : cakeCode/chocolateCake.cpp.s
+
+cakeCode/strawBCake.o: cakeCode/strawBCake.cpp.o
+
+.PHONY : cakeCode/strawBCake.o
+
+# target to build an object file
+cakeCode/strawBCake.cpp.o:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/cakeCode/strawBCake.cpp.o
+.PHONY : cakeCode/strawBCake.cpp.o
+
+cakeCode/strawBCake.i: cakeCode/strawBCake.cpp.i
+
+.PHONY : cakeCode/strawBCake.i
+
+# target to preprocess a source file
+cakeCode/strawBCake.cpp.i:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/cakeCode/strawBCake.cpp.i
+.PHONY : cakeCode/strawBCake.cpp.i
+
+cakeCode/strawBCake.s: cakeCode/strawBCake.cpp.s
+
+.PHONY : cakeCode/strawBCake.s
+
+# target to generate assembly for a file
+cakeCode/strawBCake.cpp.s:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/cakeCode/strawBCake.cpp.s
+.PHONY : cakeCode/strawBCake.cpp.s
+
+cakeCode/vanillaCake.o: cakeCode/vanillaCake.cpp.o
+
+.PHONY : cakeCode/vanillaCake.o
+
+# target to build an object file
+cakeCode/vanillaCake.cpp.o:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/cakeCode/vanillaCake.cpp.o
+.PHONY : cakeCode/vanillaCake.cpp.o
+
+cakeCode/vanillaCake.i: cakeCode/vanillaCake.cpp.i
+
+.PHONY : cakeCode/vanillaCake.i
+
+# target to preprocess a source file
+cakeCode/vanillaCake.cpp.i:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/cakeCode/vanillaCake.cpp.i
+.PHONY : cakeCode/vanillaCake.cpp.i
+
+cakeCode/vanillaCake.s: cakeCode/vanillaCake.cpp.s
+
+.PHONY : cakeCode/vanillaCake.s
+
+# target to generate assembly for a file
+cakeCode/vanillaCake.cpp.s:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/cakeCode/vanillaCake.cpp.s
+.PHONY : cakeCode/vanillaCake.cpp.s
+
 cakeMaker_autogen/mocs_compilation.o: cakeMaker_autogen/mocs_compilation.cpp.o
 
 .PHONY : cakeMaker_autogen/mocs_compilation.o
@@ -257,6 +338,15 @@ help:
 	@echo "... cakeCode/cake.o"
 	@echo "... cakeCode/cake.i"
 	@echo "... cakeCode/cake.s"
+	@echo "... cakeCode/chocolateCake.o"
+	@echo "... cakeCode/chocolateCake.i"
+	@echo "... cakeCode/chocolateCake.s"
+	@echo "... cakeCode/strawBCake.o"
+	@echo "... cakeCode/strawBCake.i"
+	@echo "... cakeCode/strawBCake.s"
+	@echo "... cakeCode/vanillaCake.o"
+	@echo "... cakeCode/vanillaCake.i"
+	@echo "... cakeCode/vanillaCake.s"
 	@echo "... cakeMaker_autogen/mocs_compilation.o"
 	@echo "... cakeMaker_autogen/mocs_compilation.i"
 	@echo "... cakeMaker_autogen/mocs_compilation.s"

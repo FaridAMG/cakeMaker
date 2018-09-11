@@ -6,7 +6,6 @@
 #include <iostream>
 #include "cake.h"
 
-cake::cake() {}
 
 
 
@@ -57,19 +56,19 @@ bool cake::crearMezcla() {
 bool cake::hornearMezcla() {
     set_actualWeight(35);
     timer(35);
-    return false;
+    return true;
 }
 
 bool cake::hacerTopping() {
     set_actualWeight(0);
     timer(0);
-    return false;
+    return true;
 }
 
 bool cake::ponerTopping() {
     set_actualWeight(0);
     timer(0);
-    return false;
+    return true;
 }
 
 int cake::get_id() const {
@@ -102,5 +101,8 @@ void cake::timer(int _seconds) {
         }
 
     }
+
+cake::cake() {}
+
 
 
