@@ -7,23 +7,23 @@
 
 cakeFactory::cakeFactory() {}
 
-chocolateCake cakeFactory::createChocoCake() {
+chocolateCake *cakeFactory::createChocoCake() {
 
     auto * cc = new chocolateCake();
 
-    return *cc;
+    return cc;
 }
 
-vanillaCake cakeFactory::createVanillaCake() {
+vanillaCake *cakeFactory::createVanillaCake() {
 
     auto * vc = new vanillaCake();
 
-    return *vc;
+    return vc;
 }
 
-strawBCake cakeFactory::createStrawBCake() {
+strawBCake *cakeFactory::createStrawBCake() {
 
     auto * sc = new strawBCake();
 
-    return *sc;
+    return sc;
 }

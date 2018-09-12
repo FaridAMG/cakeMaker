@@ -16,9 +16,9 @@ class cakeFactory {
 public:
     cakeFactory();
 
-    chocolateCake createChocoCake();
-    vanillaCake createVanillaCake();
-    strawBCake createStrawBCake();
+    chocolateCake *createChocoCake();
+    vanillaCake *createVanillaCake();
+    strawBCake *createStrawBCake();
 
 };
 

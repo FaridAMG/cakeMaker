@@ -6,6 +6,96 @@
 
 #IncludeRegexTransform: 
 
+..//cakeCode/cakeFactory.h
+cake.h
+../cakeCode/cake.h
+chocolateCake.h
+../cakeCode/chocolateCake.h
+vanillaCake.h
+../cakeCode/vanillaCake.h
+strawBCake.h
+../cakeCode/strawBCake.h
+
+../cakeCode/cake.h
+list
+-
+string
+-
+thread
+-
+
+../cakeCode/chocolateCake.h
+cake.h
+../cakeCode/cake.h
+
+../cakeCode/strawBCake.h
+cake.h
+../cakeCode/cake.h
+
+../cakeCode/vanillaCake.h
+cake.h
+../cakeCode/cake.h
+
+/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/cake.cpp
+ctime
+-
+iostream
+-
+thread
+-
+cake.h
+/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/cake.h
+
+/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/cake.h
+list
+-
+string
+-
+thread
+-
+
+/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/cakeFactory.cpp
+cakeFactory.h
+/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/cakeFactory.h
+chocolateCake.h
+/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/chocolateCake.h
+
+/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/cakeFactory.h
+cake.h
+/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/cake.h
+chocolateCake.h
+/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/chocolateCake.h
+vanillaCake.h
+/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/vanillaCake.h
+strawBCake.h
+/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/strawBCake.h
+
+/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/chocolateCake.cpp
+iostream
+-
+chocolateCake.h
+/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/chocolateCake.h
+
+/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/chocolateCake.h
+cake.h
+/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/cake.h
+
+/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/strawBCake.cpp
+strawBCake.h
+/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/strawBCake.h
+
+/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/strawBCake.h
+cake.h
+/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/cake.h
+
+/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/vanillaCake.cpp
+vanillaCake.h
+/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/vanillaCake.h
+
+/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/vanillaCake.h
+cake.h
+/home/farida/Documents/gitKraken repositories/cakeMaker/cakeCode/cake.h
+
 /home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/cakeMaker_autogen/EWIEGA46WW/moc_mainwindow.cpp
 ../../../mainwindow.h
 /home/farida/Documents/gitKraken repositories/cakeMaker/mainwindow.h
@@ -22,6 +112,8 @@ EWIEGA46WW/moc_mainwindow.cpp
 mainwindow.h
 /home/farida/Documents/gitKraken repositories/cakeMaker/mainwindow.h
 QApplication
+-
+cakeCode/cakeFactory.h
 -
 
 /home/farida/Documents/gitKraken repositories/cakeMaker/mainwindow.cpp

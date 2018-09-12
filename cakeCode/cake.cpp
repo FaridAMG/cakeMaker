@@ -10,7 +10,9 @@
 
 
 
-void cake::runTheChef() {
+ void cake::runTheChef() {
+
+    _toDo = {1,2,3,4,5};//inserts things to do
 
     while(!_toDo.empty()){
 
@@ -43,6 +45,7 @@ void cake::runTheChef() {
 }
 
 bool cake::mantecarPyrex() {
+    std::cout<< "mantecando pyrex" <<std::endl;
     set_actualWeight(10);
     timer(10);
   return true;
@@ -55,6 +58,7 @@ bool cake::crearMezcla() {
 }
 
 bool cake::hornearMezcla() {
+    std::cout<< "hornear mezcla" <<std::endl;
     set_actualWeight(35);
     timer(35);
     return true;
@@ -105,12 +109,9 @@ void cake::timer(int _seconds) {
 
 cake::cake() {}
 
-void cake::runThread() {
 
-    newCake = std::thread(runTheChef());
-    newCake.join();
 
-}
+
 
 
 

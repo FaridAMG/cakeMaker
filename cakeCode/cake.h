@@ -7,21 +7,22 @@
 
 
 #include <list>
+#include <string>
+#include <thread>
 
 class cake {
 
     std::thread newCake;
-    std::list<int> _toDo = {1,2,3,4,5};
+    std::list<int> _toDo;
     std::list<int> _ready;
-    std::string fase = "none";
-    bool _isReady = false;
+    std::string fase;
+    bool _isReady;
     int _id = 0;
     int _actualWeight = 0;
 
 protected:
     void set_isReady(bool _isReady);
     void set_actualWeight(int _actualWeight);
-    void runTheChef();
 
     // cake making process
     bool mantecarPyrex();
@@ -32,6 +33,7 @@ protected:
 
 public:
     cake();
+    void runTheChef();
 
     // getters and setters
     bool is_isReady() const;
@@ -43,8 +45,7 @@ public:
     //timer till ready
     void timer(int _seconds);
 
-    // lets the thread join and run
-    void runThread();
+
 
 };
 
