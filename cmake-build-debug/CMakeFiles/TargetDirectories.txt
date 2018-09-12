@@ -1,4 +1,3 @@
-/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/CMakeFiles/cakeMaker.dir
-/home/farida/Documents/gitKraken repositories/cakeMaker/cmake-build-debug/CMakeFiles/cakeMaker_autogen.dir
+/home/alex/CLionProjects/cakeMaker/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/alex/CLionProjects/cakeMaker/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/alex/CLionProjects/cakeMaker/cmake-build-debug/CMakeFiles/cakeMaker.dir
