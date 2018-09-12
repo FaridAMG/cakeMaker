@@ -16,12 +16,16 @@ void Queue::push(Cake pCake) {
 }
 
 Cake Queue::pull() {
-    Cake cake;
+    Cake cake(1,1);
     return cake;
 }
 
-bool isEmpty(){
+bool Queue::isEmpty(){
     return false;
+}
+
+int Queue::getFirstWeight() {
+    return 1;
 }
 
 

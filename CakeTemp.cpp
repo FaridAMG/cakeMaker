@@ -6,7 +6,10 @@
 #include <string>
 #include "iostream"
 
-Cake::Cake() {
+Cake::Cake(int pId, int pActualWeight) {
+    setId(pId);
+    setIsReady(false);
+    setActualWeight(pActualWeight);
 
 }
 

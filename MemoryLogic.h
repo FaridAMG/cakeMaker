@@ -10,6 +10,7 @@
 #include "CakeTemp.h"
 #include "ListTemp.h"
 #include "QueueTemp.h"
+#include <thread>
 
 class MemoryLogic{
     private:
@@ -19,9 +20,9 @@ class MemoryLogic{
 
     public:
 
-        MemoryLogic();
+        bool memoryState;
 
-        void startLogic();
+        MemoryLogic(Queue pWaitList, List pProductLine, List pSwap);
 
         List getProductLine();
 
@@ -29,9 +30,15 @@ class MemoryLogic{
 
         Queue getWaitLine();
 
-        int findHeavyCake();
+        int findProductLineHeavyCake();
 
-        bool checkSpace(int pCakeSize);
+        bool checkProductSpace(int pCakeSize);
+
+        bool checkSwapSpace(int pCakeSize);
+
+        void runLogic();
+
+        int delay(int pSeconds);
 
 };
 

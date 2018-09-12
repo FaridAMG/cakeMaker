@@ -7,7 +7,7 @@
 #include "ListTemp.h"
 
 List::List() {
-
+    setMaxHours(10);
 }
 
 void List::takeOut(int pId) {
@@ -29,11 +29,19 @@ void List::setMaxHours(int pMaxHours) {
 }
 
 Cake List::move(int pId) {
-    Cake cake;
+    Cake cake(1,1);
     return cake;
 }
 
 int List::findHeavyCake() {
     return 0;
+}
+
+int List::actualWeight() {
+    return 1;
+}
+
+int List::findHeavyWeight() {
+    return 1;
 }
 

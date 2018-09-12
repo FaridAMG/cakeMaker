@@ -15,6 +15,7 @@ class Queue{
         void push(Cake pCake);
         Cake pull();
         bool isEmpty();
+        int getFirstWeight();
 
 };
 

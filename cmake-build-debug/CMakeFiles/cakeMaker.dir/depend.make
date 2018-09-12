@@ -8,6 +8,12 @@ CMakeFiles/cakeMaker.dir/ListTemp.cpp.o: ../CakeTemp.h
 CMakeFiles/cakeMaker.dir/ListTemp.cpp.o: ../ListTemp.cpp
 CMakeFiles/cakeMaker.dir/ListTemp.cpp.o: ../ListTemp.h
 
+CMakeFiles/cakeMaker.dir/MemoryLogic.cpp.o: ../CakeTemp.h
+CMakeFiles/cakeMaker.dir/MemoryLogic.cpp.o: ../ListTemp.h
+CMakeFiles/cakeMaker.dir/MemoryLogic.cpp.o: ../MemoryLogic.cpp
+CMakeFiles/cakeMaker.dir/MemoryLogic.cpp.o: ../MemoryLogic.h
+CMakeFiles/cakeMaker.dir/MemoryLogic.cpp.o: ../QueueTemp.h
+
 CMakeFiles/cakeMaker.dir/QueueTemp.cpp.o: ../CakeTemp.h
 CMakeFiles/cakeMaker.dir/QueueTemp.cpp.o: ../QueueTemp.cpp
 CMakeFiles/cakeMaker.dir/QueueTemp.cpp.o: ../QueueTemp.h
@@ -15,6 +21,10 @@ CMakeFiles/cakeMaker.dir/QueueTemp.cpp.o: ../QueueTemp.h
 CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o: cakeMaker_autogen/EWIEGA46WW/moc_mainwindow.cpp
 CMakeFiles/cakeMaker.dir/cakeMaker_autogen/mocs_compilation.cpp.o: cakeMaker_autogen/mocs_compilation.cpp
 
+CMakeFiles/cakeMaker.dir/main.cpp.o: ../CakeTemp.h
+CMakeFiles/cakeMaker.dir/main.cpp.o: ../ListTemp.h
+CMakeFiles/cakeMaker.dir/main.cpp.o: ../MemoryLogic.h
+CMakeFiles/cakeMaker.dir/main.cpp.o: ../QueueTemp.h
 CMakeFiles/cakeMaker.dir/main.cpp.o: ../main.cpp
 CMakeFiles/cakeMaker.dir/main.cpp.o: /home/gustavo/Programas/Qt/5.11.1/gcc_64/include/QtCore/qalgorithms.h
 CMakeFiles/cakeMaker.dir/main.cpp.o: /home/gustavo/Programas/Qt/5.11.1/gcc_64/include/QtCore/qarraydata.h

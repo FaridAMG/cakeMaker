@@ -14,7 +14,7 @@ class Cake {
 
     public:
 
-        Cake();
+        Cake(int pId, int pActualWeight);
 
         void startThread();
         int getId();

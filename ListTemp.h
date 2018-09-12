@@ -23,6 +23,7 @@ class List{
         Cake move(int pId);
         int findHeavyCake();
         int actualWeight();
+        int findHeavyWeight();
 
 
 };
