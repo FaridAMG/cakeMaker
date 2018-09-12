@@ -140,3 +140,9 @@ void List::print(){
         i++;
     }
 }
+void List::setMaxHours(int pMaxHours){
+    this->_maxHours= pMaxHours;
+}
+int List::getMaxHours() {
+    return this->_maxHours;
+}
