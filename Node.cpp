@@ -7,7 +7,9 @@
 #include <cstdlib>
 #include "Cake.h"
 
-
+/*
+ * Constructor of the Node class
+ */
 Node::Node() {
     this->_cake = _cake;
     this->_next = NULL;

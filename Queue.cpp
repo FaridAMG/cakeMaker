@@ -7,6 +7,9 @@
 #include <cstdlib>
 
 using namespace std;
+/*
+ * Constructor of the Queue class
+ */
 Queue::Queue(){
     this->_head = NULL;
     this->_length=0;

@@ -14,7 +14,10 @@ List::List(){
     this->_length = 0;
     this->_head = NULL;
 }
-
+/*
+ * Receives a *cake and saves it in the first position of the list.
+ * @params: *pCake(Type: Cake *)
+ */
 void List::takeIn(Cake *pCake) {
     Node* node = new Node();
     node->_cake = *pCake;
@@ -22,7 +25,10 @@ void List::takeIn(Cake *pCake) {
     this->_head = node;
     this->_length++;
 }
-
+/*
+ * Receives a cake and saves it in the first position of the list.
+ * @params: pCake(Type: Cake)
+ */
 void List::takeIn(Cake pCake) {
     Node* node = new Node();
     node->_cake = pCake;
@@ -30,7 +36,10 @@ void List::takeIn(Cake pCake) {
     this->_head = node;
     this->_length++;
 }
-
+/*
+ * Removes the element with the matching ID
+ * @params: pId (Type: int)
+ */
 void List::takeOut(int pId) {
 
     if(this->_head->_cake._id== pId)
@@ -42,16 +51,18 @@ void List::takeOut(int pId) {
     while (delet){
         if(delet->_cake._id == pId) {
             temp->_next = delet->_next;
-            /* cout<< temp->_cake._id<<endl;
-             cout<< temp->_next->_cake._id<<endl;*/
+
             break;
         }
         temp = delet;
-        // cout<< temp->_cake._id<<endl;
         delet = delet->_next;
     }
 }
-
+/*
+ * Retrieves the element with the matching ID
+ * @params: pId (Type: int)
+ * @return delet (Type: Cake)
+ */
 Cake List::move(int pId) {
 
     if(this->_head->_cake._id== pId)
@@ -72,7 +83,10 @@ Cake List::move(int pId) {
         delet = delet->_next;
     }
 }
-
+/*
+ * Finds the ID of the heaviest cake currently in the list.
+ * @return _cake->_id (Type: int)
+ */
 int List::findHeavyCake() {
     Node *temp = this->_head;
     Node *heavy = this->_head;
@@ -84,6 +98,10 @@ int List::findHeavyCake() {
     std::cout << "Heaviest cake ID" << ": "<< heavy->_cake._id << std::endl;
     return heavy->_cake._id;
 }
+/*
+ * Finds the weight of the heaviest cake currently in the list
+ * @return _cake->_actualWeight
+ */
 
 int List::findHeavyWeight() {
     Node *temp = this->_head;
@@ -96,7 +114,10 @@ int List::findHeavyWeight() {
     std::cout << "Heaviest cake weight" << ": "<< heavy->_cake._actualWeight << std::endl;
     return heavy->_cake._actualWeight;
 }
-
+/*
+ * Returns the current Total Weight of the list based off the weight of each individual member.
+ * @return weight (Type: int)
+ */
 int List::actualWeight() {
     Node *temp = this->_head;
     int weight=0;
@@ -107,7 +128,9 @@ int List::actualWeight() {
     std::cout << "Current Total Weight" << ": "<< weight << std::endl;
     return weight;
 }
-
+/*
+ * Prints the list
+ */
 void List::print(){
     Node* head = this->_head;
     int i = 1;

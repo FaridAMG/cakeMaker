@@ -7,7 +7,7 @@ set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_AUTOMOC ON)
 
 find_package(Qt5Widgets CONFIG #Build files were created in my computer, with this cmake QtWidgets
-        PATHS /home/farida/IDEs/Qt/5.9.1/gcc_64/lib/cmake#Build your own
+        PATHS /home/alex/IDEs/Qt/5.9.1/gcc_64/lib/cmake#Build your own
         NO_DEFAULT_PATH)
 
 
