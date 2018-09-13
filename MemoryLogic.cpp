@@ -14,7 +14,7 @@
 #include "StrawBCake.h"
 #include "VanillaCake.h"
 
-
+/*Constructor*/
 MemoryLogic::MemoryLogic(Queue pWaitList, List pProductLine, List pSwap) {
     this->memoryState = true;
     this->_waitLine = pWaitList;
@@ -35,10 +35,12 @@ Queue MemoryLogic::getWaitLine() {
     return this->_waitLine;
 }
 
+/*This method finds the heaviest cake from the production line*/
 int MemoryLogic::findProductLineHeavyCake() {
     return this->_productLine.findHeavyCake();
 }
 
+/*This method checks the production line list space*/
 bool MemoryLogic::checkProductSpace(int pCakeSize) {
     if ((this->_productLine.actualWeight() + pCakeSize) >= this->_productLine.getMaxHours()){
         std:: cout << "The cake weight exceeds the max weight capaticty of the production line" << std::endl;
@@ -50,6 +52,7 @@ bool MemoryLogic::checkProductSpace(int pCakeSize) {
     }
 }
 
+/*This method checks the swap list space*/
 bool MemoryLogic::checkSwapSpace(int pCakeSize) {
     if ((this->_swap.actualWeight() + pCakeSize) >= this->_swap.getMaxHours()){
         std:: cout << "The cake weight exceeds the max weight capaticty of the production line" << std::endl;
@@ -61,6 +64,7 @@ bool MemoryLogic::checkSwapSpace(int pCakeSize) {
     }
 }
 
+/*This method controls all the logic and managment of the queue, swap, and product line*/
 void MemoryLogic::runLogic() {
     while(this->memoryState) {
         if (this->_waitLine.isEmpty()) {
@@ -109,6 +113,7 @@ void MemoryLogic::runLogic() {
 
 }
 
+/*This method is used to delay the proccess some seconds*/
 int MemoryLogic::delay(int pSeconds){
     sleep(pSeconds);
 }
