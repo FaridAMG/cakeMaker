@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 #include "CakeFactory.h"
 #include <unistd.h>
 
-
+/*We create tome cakes, push them into a queue and start a thread that runs de memory logic*/
 int main(){
 
     Queue queue;
