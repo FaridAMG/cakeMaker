@@ -136,59 +136,113 @@ cakeMaker_autogen/fast:
 	$(MAKE) -f CMakeFiles/cakeMaker_autogen.dir/build.make CMakeFiles/cakeMaker_autogen.dir/build
 .PHONY : cakeMaker_autogen/fast
 
-CakeTemp.o: CakeTemp.cpp.o
+Cake.o: Cake.cpp.o
 
-.PHONY : CakeTemp.o
-
-# target to build an object file
-CakeTemp.cpp.o:
-	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/CakeTemp.cpp.o
-.PHONY : CakeTemp.cpp.o
-
-CakeTemp.i: CakeTemp.cpp.i
-
-.PHONY : CakeTemp.i
-
-# target to preprocess a source file
-CakeTemp.cpp.i:
-	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/CakeTemp.cpp.i
-.PHONY : CakeTemp.cpp.i
-
-CakeTemp.s: CakeTemp.cpp.s
-
-.PHONY : CakeTemp.s
-
-# target to generate assembly for a file
-CakeTemp.cpp.s:
-	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/CakeTemp.cpp.s
-.PHONY : CakeTemp.cpp.s
-
-ListTemp.o: ListTemp.cpp.o
-
-.PHONY : ListTemp.o
+.PHONY : Cake.o
 
 # target to build an object file
-ListTemp.cpp.o:
-	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/ListTemp.cpp.o
-.PHONY : ListTemp.cpp.o
+Cake.cpp.o:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/Cake.cpp.o
+.PHONY : Cake.cpp.o
 
-ListTemp.i: ListTemp.cpp.i
+Cake.i: Cake.cpp.i
 
-.PHONY : ListTemp.i
+.PHONY : Cake.i
 
 # target to preprocess a source file
-ListTemp.cpp.i:
-	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/ListTemp.cpp.i
-.PHONY : ListTemp.cpp.i
+Cake.cpp.i:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/Cake.cpp.i
+.PHONY : Cake.cpp.i
 
-ListTemp.s: ListTemp.cpp.s
+Cake.s: Cake.cpp.s
 
-.PHONY : ListTemp.s
+.PHONY : Cake.s
 
 # target to generate assembly for a file
-ListTemp.cpp.s:
-	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/ListTemp.cpp.s
-.PHONY : ListTemp.cpp.s
+Cake.cpp.s:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/Cake.cpp.s
+.PHONY : Cake.cpp.s
+
+CakeFactory.o: CakeFactory.cpp.o
+
+.PHONY : CakeFactory.o
+
+# target to build an object file
+CakeFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/CakeFactory.cpp.o
+.PHONY : CakeFactory.cpp.o
+
+CakeFactory.i: CakeFactory.cpp.i
+
+.PHONY : CakeFactory.i
+
+# target to preprocess a source file
+CakeFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/CakeFactory.cpp.i
+.PHONY : CakeFactory.cpp.i
+
+CakeFactory.s: CakeFactory.cpp.s
+
+.PHONY : CakeFactory.s
+
+# target to generate assembly for a file
+CakeFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/CakeFactory.cpp.s
+.PHONY : CakeFactory.cpp.s
+
+ChocolateCake.o: ChocolateCake.cpp.o
+
+.PHONY : ChocolateCake.o
+
+# target to build an object file
+ChocolateCake.cpp.o:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/ChocolateCake.cpp.o
+.PHONY : ChocolateCake.cpp.o
+
+ChocolateCake.i: ChocolateCake.cpp.i
+
+.PHONY : ChocolateCake.i
+
+# target to preprocess a source file
+ChocolateCake.cpp.i:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/ChocolateCake.cpp.i
+.PHONY : ChocolateCake.cpp.i
+
+ChocolateCake.s: ChocolateCake.cpp.s
+
+.PHONY : ChocolateCake.s
+
+# target to generate assembly for a file
+ChocolateCake.cpp.s:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/ChocolateCake.cpp.s
+.PHONY : ChocolateCake.cpp.s
+
+List.o: List.cpp.o
+
+.PHONY : List.o
+
+# target to build an object file
+List.cpp.o:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/List.cpp.o
+.PHONY : List.cpp.o
+
+List.i: List.cpp.i
+
+.PHONY : List.i
+
+# target to preprocess a source file
+List.cpp.i:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/List.cpp.i
+.PHONY : List.cpp.i
+
+List.s: List.cpp.s
+
+.PHONY : List.s
+
+# target to generate assembly for a file
+List.cpp.s:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/List.cpp.s
+.PHONY : List.cpp.s
 
 MemoryLogic.o: MemoryLogic.cpp.o
 
@@ -217,32 +271,113 @@ MemoryLogic.cpp.s:
 	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/MemoryLogic.cpp.s
 .PHONY : MemoryLogic.cpp.s
 
-QueueTemp.o: QueueTemp.cpp.o
+Node.o: Node.cpp.o
 
-.PHONY : QueueTemp.o
+.PHONY : Node.o
 
 # target to build an object file
-QueueTemp.cpp.o:
-	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/QueueTemp.cpp.o
-.PHONY : QueueTemp.cpp.o
+Node.cpp.o:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/Node.cpp.o
+.PHONY : Node.cpp.o
 
-QueueTemp.i: QueueTemp.cpp.i
+Node.i: Node.cpp.i
 
-.PHONY : QueueTemp.i
+.PHONY : Node.i
 
 # target to preprocess a source file
-QueueTemp.cpp.i:
-	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/QueueTemp.cpp.i
-.PHONY : QueueTemp.cpp.i
+Node.cpp.i:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/Node.cpp.i
+.PHONY : Node.cpp.i
 
-QueueTemp.s: QueueTemp.cpp.s
+Node.s: Node.cpp.s
 
-.PHONY : QueueTemp.s
+.PHONY : Node.s
 
 # target to generate assembly for a file
-QueueTemp.cpp.s:
-	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/QueueTemp.cpp.s
-.PHONY : QueueTemp.cpp.s
+Node.cpp.s:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/Node.cpp.s
+.PHONY : Node.cpp.s
+
+Queue.o: Queue.cpp.o
+
+.PHONY : Queue.o
+
+# target to build an object file
+Queue.cpp.o:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/Queue.cpp.o
+.PHONY : Queue.cpp.o
+
+Queue.i: Queue.cpp.i
+
+.PHONY : Queue.i
+
+# target to preprocess a source file
+Queue.cpp.i:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/Queue.cpp.i
+.PHONY : Queue.cpp.i
+
+Queue.s: Queue.cpp.s
+
+.PHONY : Queue.s
+
+# target to generate assembly for a file
+Queue.cpp.s:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/Queue.cpp.s
+.PHONY : Queue.cpp.s
+
+StrawBCake.o: StrawBCake.cpp.o
+
+.PHONY : StrawBCake.o
+
+# target to build an object file
+StrawBCake.cpp.o:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/StrawBCake.cpp.o
+.PHONY : StrawBCake.cpp.o
+
+StrawBCake.i: StrawBCake.cpp.i
+
+.PHONY : StrawBCake.i
+
+# target to preprocess a source file
+StrawBCake.cpp.i:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/StrawBCake.cpp.i
+.PHONY : StrawBCake.cpp.i
+
+StrawBCake.s: StrawBCake.cpp.s
+
+.PHONY : StrawBCake.s
+
+# target to generate assembly for a file
+StrawBCake.cpp.s:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/StrawBCake.cpp.s
+.PHONY : StrawBCake.cpp.s
+
+VanillaCake.o: VanillaCake.cpp.o
+
+.PHONY : VanillaCake.o
+
+# target to build an object file
+VanillaCake.cpp.o:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/VanillaCake.cpp.o
+.PHONY : VanillaCake.cpp.o
+
+VanillaCake.i: VanillaCake.cpp.i
+
+.PHONY : VanillaCake.i
+
+# target to preprocess a source file
+VanillaCake.cpp.i:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/VanillaCake.cpp.i
+.PHONY : VanillaCake.cpp.i
+
+VanillaCake.s: VanillaCake.cpp.s
+
+.PHONY : VanillaCake.s
+
+# target to generate assembly for a file
+VanillaCake.cpp.s:
+	$(MAKE) -f CMakeFiles/cakeMaker.dir/build.make CMakeFiles/cakeMaker.dir/VanillaCake.cpp.s
+.PHONY : VanillaCake.cpp.s
 
 cakeMaker_autogen/mocs_compilation.o: cakeMaker_autogen/mocs_compilation.cpp.o
 
@@ -335,18 +470,33 @@ help:
 	@echo "... edit_cache"
 	@echo "... cakeMaker"
 	@echo "... cakeMaker_autogen"
-	@echo "... CakeTemp.o"
-	@echo "... CakeTemp.i"
-	@echo "... CakeTemp.s"
-	@echo "... ListTemp.o"
-	@echo "... ListTemp.i"
-	@echo "... ListTemp.s"
+	@echo "... Cake.o"
+	@echo "... Cake.i"
+	@echo "... Cake.s"
+	@echo "... CakeFactory.o"
+	@echo "... CakeFactory.i"
+	@echo "... CakeFactory.s"
+	@echo "... ChocolateCake.o"
+	@echo "... ChocolateCake.i"
+	@echo "... ChocolateCake.s"
+	@echo "... List.o"
+	@echo "... List.i"
+	@echo "... List.s"
 	@echo "... MemoryLogic.o"
 	@echo "... MemoryLogic.i"
 	@echo "... MemoryLogic.s"
-	@echo "... QueueTemp.o"
-	@echo "... QueueTemp.i"
-	@echo "... QueueTemp.s"
+	@echo "... Node.o"
+	@echo "... Node.i"
+	@echo "... Node.s"
+	@echo "... Queue.o"
+	@echo "... Queue.i"
+	@echo "... Queue.s"
+	@echo "... StrawBCake.o"
+	@echo "... StrawBCake.i"
+	@echo "... StrawBCake.s"
+	@echo "... VanillaCake.o"
+	@echo "... VanillaCake.i"
+	@echo "... VanillaCake.s"
 	@echo "... cakeMaker_autogen/mocs_compilation.o"
 	@echo "... cakeMaker_autogen/mocs_compilation.i"
 	@echo "... cakeMaker_autogen/mocs_compilation.s"

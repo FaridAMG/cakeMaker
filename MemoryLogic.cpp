@@ -4,13 +4,15 @@
 
 #include "iostream"
 #include <string>
-#include "CakeTemp.h"
-#include "ListTemp.h"
-#include "QueueTemp.h"
+#include "Cake.h"
+#include "List.h"
+#include "Queue.h"
 #include "MemoryLogic.h"
 #include <thread>
 #include <unistd.h>
-
+#include "ChocolateCake.h"
+#include "StrawBCake.h"
+#include "VanillaCake.h"
 
 
 MemoryLogic::MemoryLogic(Queue pWaitList, List pProductLine, List pSwap) {
@@ -18,6 +20,7 @@ MemoryLogic::MemoryLogic(Queue pWaitList, List pProductLine, List pSwap) {
     this->_waitLine = pWaitList;
     this->_productLine = pProductLine;
     this->_swap = pSwap;
+
 }
 
 List MemoryLogic::getProductLine() {
@@ -37,7 +40,7 @@ int MemoryLogic::findProductLineHeavyCake() {
 }
 
 bool MemoryLogic::checkProductSpace(int pCakeSize) {
-    if ((getProductLine().actualWeight() + pCakeSize) >= getProductLine().getMaxHours()){
+    if ((this->_productLine.actualWeight() + pCakeSize) >= this->_productLine.getMaxHours()){
         std:: cout << "The cake weight exceeds the max weight capaticty of the production line" << std::endl;
         return false;
     }
@@ -48,7 +51,7 @@ bool MemoryLogic::checkProductSpace(int pCakeSize) {
 }
 
 bool MemoryLogic::checkSwapSpace(int pCakeSize) {
-    if ((getSwap().actualWeight() + pCakeSize) >= getSwap().getMaxHours()){
+    if ((this->_swap.actualWeight() + pCakeSize) >= this->_swap.getMaxHours()){
         std:: cout << "The cake weight exceeds the max weight capaticty of the production line" << std::endl;
         return false;
     }
@@ -60,26 +63,50 @@ bool MemoryLogic::checkSwapSpace(int pCakeSize) {
 
 void MemoryLogic::runLogic() {
     while(this->memoryState) {
-        if (getWaitLine().isEmpty()) {
-            std::cout << "Wait line is empty" << std::endl;
+        if (this->_waitLine.isEmpty()) {
+            //std::cout << "Wait line is empty" << std::endl;
         } else {
             std::cout << "Wait line has items" << std::endl;
-            if (checkProductSpace(getWaitLine().getFirstWeight())) {
-                Cake cake = getWaitLine().pull();
-                getProductLine().takeIn(cake);
-                cake.startThread();
-                std::cout << "A cake has been introduced to the production line" << std::endl;
-                delay(5);
+            if (checkProductSpace(this->_waitLine.getFirstWeight())) {
+                if(_waitLine.getFirstType() == 1){
+                    ChocolateCake cake = ChocolateCake (_waitLine.pull());
+                    this->_productLine.takeIn(cake);
+                    std::cout << "A cake has been introduced to the production line" << std::endl;
+                    std::thread cake_thread (&Cake::runTheChef, cake);
+                    cake_thread.detach();
+                    _waitLine.print();
+                    delay(20);
+                }
+                if(_waitLine.getFirstType() == 2){
+                    VanillaCake cake = VanillaCake (_waitLine.pull());
+                    this->_productLine.takeIn(cake);
+                    std::cout << "A cake has been introduced to the production line" << std::endl;
+                    std::thread cake_thread (&Cake::runTheChef, cake);
+                    cake_thread.detach();
+                    _waitLine.print();
+                    delay(20);
+                }
+                if(_waitLine.getFirstType() == 3){
+                    StrawBCake cake = StrawBCake (_waitLine.pull());
+                    this->_productLine.takeIn(cake);
+                    std::cout << "A cake has been introduced to the production line" << std::endl;
+                    std::thread cake_thread (&Cake::runTheChef, cake);
+                    cake_thread.detach();
+                    _waitLine.print();
+                    delay(20);
+                }
             } else {
-                if (checkSwapSpace(getProductLine().findHeavyWeight())) {
-                    Cake cake = getProductLine().move(findProductLineHeavyCake());
-                    getSwap().takeIn(cake);
+                if (checkSwapSpace(this->_productLine.findHeavyWeight())) {
+                    Cake cake = this->_productLine.move(findProductLineHeavyCake());
+                    this->_swap.takeIn(cake);
                 } else {
                     std::cout << "There´s no space in the swap memory" << std::endl;
                 }
             }
         }
     }
+
+
 }
 
 int MemoryLogic::delay(int pSeconds){

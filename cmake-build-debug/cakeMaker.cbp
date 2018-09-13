@@ -116,16 +116,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/CakeTemp.cpp">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/Cake.cpp">
 			<Option target="cakeMaker"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/CakeTemp.h">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/Cake.h">
 			<Option target="cakeMaker"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/ListTemp.cpp">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/CakeFactory.cpp">
 			<Option target="cakeMaker"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/ListTemp.h">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/CakeFactory.h">
+			<Option target="cakeMaker"/>
+		</Unit>
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/ChocolateCake.cpp">
+			<Option target="cakeMaker"/>
+		</Unit>
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/ChocolateCake.h">
+			<Option target="cakeMaker"/>
+		</Unit>
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/List.cpp">
+			<Option target="cakeMaker"/>
+		</Unit>
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/List.h">
 			<Option target="cakeMaker"/>
 		</Unit>
 		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/MemoryLogic.cpp">
@@ -134,10 +146,28 @@
 		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/MemoryLogic.h">
 			<Option target="cakeMaker"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/QueueTemp.cpp">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/Node.cpp">
 			<Option target="cakeMaker"/>
 		</Unit>
-		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/QueueTemp.h">
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/Node.h">
+			<Option target="cakeMaker"/>
+		</Unit>
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/Queue.cpp">
+			<Option target="cakeMaker"/>
+		</Unit>
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/Queue.h">
+			<Option target="cakeMaker"/>
+		</Unit>
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/StrawBCake.cpp">
+			<Option target="cakeMaker"/>
+		</Unit>
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/StrawBCake.h">
+			<Option target="cakeMaker"/>
+		</Unit>
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/VanillaCake.cpp">
+			<Option target="cakeMaker"/>
+		</Unit>
+		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/VanillaCake.h">
 			<Option target="cakeMaker"/>
 		</Unit>
 		<Unit filename="/home/gustavo/Escritorio/Google Drive Ubuntu/TEC/Cursos/Algoritmos y estructuras de datos 2/Tareas/Tarea corta/cakeMaker/cmake-build-debug/cakeMaker_autogen/mocs_compilation.cpp">

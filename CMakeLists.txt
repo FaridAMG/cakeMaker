@@ -17,7 +17,9 @@ list(APPEND THIRD_PARTY_LIBS Qt5::Widgets Qt5::Core Qt5::Gui)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES cakeMaker main.cpp mainwindow.h mainwindow.cpp mainwindow.ui ui_mainwindow.h QueueTemp.h QueueTemp.cpp CakeTemp.cpp CakeTemp.h ListTemp.h ListTemp.cpp MemoryLogic.h)
+set(SOURCE_FILES cakeMaker main.cpp mainwindow.h mainwindow.cpp mainwindow.ui ui_mainwindow.h Queue.h Queue.cpp Cake.cpp
+        Cake.h List.h List.cpp MemoryLogic.h CakeFactory.cpp CakeFactory.h ChocolateCake.cpp ChocolateCake.h StrawBCake.cpp
+        StrawBCake.h VanillaCake.cpp VanillaCake.h)
 
 set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -pthread")
 
@@ -26,7 +28,7 @@ set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -pthread")
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(${SOURCE_FILES} MemoryLogic.cpp)
+add_executable(${SOURCE_FILES} MemoryLogic.cpp Node.cpp Node.h)
 
 
 #<More QT Extras>

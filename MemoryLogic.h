@@ -7,9 +7,9 @@
 
 #include "iostream"
 #include <string>
-#include "CakeTemp.h"
-#include "ListTemp.h"
-#include "QueueTemp.h"
+#include "Cake.h"
+#include "List.h"
+#include "Queue.h"
 #include <thread>
 
 class MemoryLogic{
