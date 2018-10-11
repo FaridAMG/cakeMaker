@@ -45,38 +45,35 @@ void Cake::runTheChef() {
 }
 
 bool Cake::mantecarPyrex() {
-    std::cout<< "mantecando pyrex de queque" << std::endl;
+    std::cout<< "mantecando pyrex de queque "  << getId() << std::endl;
     set_actualWeight(10);
     timer(10);
     return true;
 }
 
 bool Cake::crearMezcla() {
-    std::cout<< "creando mezcla de queque" << std::endl;
     set_actualWeight(0);
     timer(0);
     return true;
 }
 
 bool Cake::hornearMezcla() {
-    std::cout<< "hornear mezcla de queque" <<std::endl;
+    std::cout<< "hornear mezcla de queque "  << getId()  <<std::endl;
     set_actualWeight(35);
     timer(35);
     return true;
 }
 
 bool Cake::hacerTopping() {
-    std::cout<< "haciendo topping de queque" <<std::endl;
     set_actualWeight(0);
     timer(0);
     return true;
 }
 
 bool Cake::ponerTopping() {
-    std::cout<< "poniendo topping de queque" <<std::endl;
     set_actualWeight(0);
     timer(0);
-    std::cout<< "Listo queque" << std::endl;
+    std::cout<< "Listo queque "  << getId() << std::endl;
     return true;
 }
 

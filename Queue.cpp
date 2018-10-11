@@ -19,7 +19,7 @@ Queue::Queue(){
  * Checks if the queue is empty and returns a boolean value accordingly.
  */
 bool Queue::isEmpty() {
-    if (this->_head == NULL) {
+    if (this->_head == nullptr) {
         //cout<<"Queue is empty" <<endl;
         return true;
     }else {
@@ -102,6 +102,10 @@ int Queue::getFirstType() {
     return this->_head->_cake.getType();
 }
 
+int Queue::getFirstId() {
+    std:: cout << "Cake of type :" << this->_head->_cake.getType() << std::endl;
+    return this->_head->_cake.getId();
+}
 
 
 

@@ -21,6 +21,8 @@ public:
 
     void print();
     int getFirstType();
+
+    int getFirstId();
 };
 
 

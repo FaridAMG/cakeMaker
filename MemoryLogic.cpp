@@ -68,12 +68,16 @@ bool MemoryLogic::checkSwapSpace(int pCakeSize) {
 void MemoryLogic::runLogic() {
     while(this->memoryState) {
         if (this->_waitLine.isEmpty()) {
-            //std::cout << "Wait line is empty" << std::endl;
-        } else {
+            std::cout << "Wait line is empty" << std::endl;
+            delay(3);
+        }
+        else {
             std::cout << "Wait line has items" << std::endl;
             if (checkProductSpace(this->_waitLine.getFirstWeight())) {
                 if(_waitLine.getFirstType() == 1){
+                    int id = _waitLine.getFirstId();
                     ChocolateCake cake = ChocolateCake (_waitLine.pull());
+                    cake.setId(id);
                     this->_productLine.takeIn(cake);
                     std::cout << "A cake has been introduced to the production line" << std::endl;
                     std::thread cake_thread (&Cake::runTheChef, cake);
@@ -81,8 +85,10 @@ void MemoryLogic::runLogic() {
                     _waitLine.print();
                     delay(20);
                 }
-                if(_waitLine.getFirstType() == 2){
+                else if(_waitLine.getFirstType() == 2){
+                    int id = _waitLine.getFirstId();
                     VanillaCake cake = VanillaCake (_waitLine.pull());
+                    cake.setId(id);
                     this->_productLine.takeIn(cake);
                     std::cout << "A cake has been introduced to the production line" << std::endl;
                     std::thread cake_thread (&Cake::runTheChef, cake);
@@ -90,8 +96,10 @@ void MemoryLogic::runLogic() {
                     _waitLine.print();
                     delay(20);
                 }
-                if(_waitLine.getFirstType() == 3){
+                else if(_waitLine.getFirstType() == 3){
+                    int id = _waitLine.getFirstId();
                     StrawBCake cake = StrawBCake (_waitLine.pull());
+                    cake.setId(id);
                     this->_productLine.takeIn(cake);
                     std::cout << "A cake has been introduced to the production line" << std::endl;
                     std::thread cake_thread (&Cake::runTheChef, cake);
@@ -99,7 +107,8 @@ void MemoryLogic::runLogic() {
                     _waitLine.print();
                     delay(20);
                 }
-            } else {
+            }
+            else {
                 if (checkSwapSpace(this->_productLine.findHeavyWeight())) {
                     Cake cake = this->_productLine.move(findProductLineHeavyCake());
                     this->_swap.takeIn(cake);

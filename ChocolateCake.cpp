@@ -7,21 +7,21 @@
 
 
 bool ChocolateCake::crearMezcla() {
-    std::cout<< "creando mezcla" <<std::endl;
+    std::cout<< "creando mezcla de queque "  << getId()  << std::endl;
     set_actualWeight(22);
     timer(22);
     return Cake::crearMezcla();
 }
 
 bool ChocolateCake::hacerTopping() {
-    std::cout<< "haciendo topping" <<std::endl;
+    std::cout<< "haciendo topping de queque "  << getId()  <<std::endl;
     set_actualWeight(24);
     timer(24);
     return Cake::hacerTopping();
 }
 
 bool ChocolateCake::ponerTopping() {
-    std::cout<< "poner topping" <<std::endl;
+    std::cout<< "poniendo topping de queque "  << getId()  << std::endl;
     set_actualWeight(5);
     timer(5);
     return Cake::ponerTopping();
